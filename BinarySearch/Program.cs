@@ -1,2 +1,46 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class BinarySearch
+{
+    public static int Search(int[] array, int value)
+    {
+        int left = 0;
+        int right = array.Length - 1;
+        while (left <= right)
+        {
+            int mid = left + (right - left) / 2;
+            if (array[mid] == value)
+            {
+                return mid;
+            }
+            else if (array[mid] < value)
+            {
+                left = mid + 1;
+            }
+            else
+            {
+                right = mid - 1;
+            }
+        }
+        return -1;
+    }
+
+    //public static void Main()
+    //{
+    //    int[] array = new int[1024];
+        
+    //    for (var i = 0;i < 1024;i++)
+    //    {
+    //        array[i] = i;
+    //    }
+    //    //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    //    int value = 100;
+    //    int index = Search(array, value);
+    //    if (index == -1)
+    //    {
+    //        Console.WriteLine("{0} not found", value);
+    //    }
+    //    else
+    //    {
+    //        Console.WriteLine("{0} found at index {1}", value, index);
+    //    }
+    //}
+}
