@@ -47,14 +47,14 @@ namespace MergeSort
             return resultArray.Concat(leftarray.Skip(lftIndex)).Concat(rightarray.Skip(rgtIndex)).ToArray();
         }
         
-        public static void Main(string[] args)
-        {
-            int[] array = { 10, 22, 13, 4, 15, 6, 17, 8, 29, 50 };
-            array = Sort(array);
-            foreach (int i in array)
-            {
-                Console.WriteLine(i);
-            }
-        }
+        //public static void Main(string[] args)
+        //{
+        //    int[] array = { 10, 22, 13, 4, 15, 6, 17, 8, 29, 50,78 };
+        //    array = Sort(array);
+        //    foreach (int i in array)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
     }
 }

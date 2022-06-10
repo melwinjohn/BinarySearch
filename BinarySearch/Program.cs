@@ -25,22 +25,22 @@
 
     //public static void Main()
     //{
-    //    int[] array = new int[1024];
-        
-    //    for (var i = 0;i < 1024;i++)
-    //    {
-    //        array[i] = i;
-    //    }
-    //    //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-    //    int value = 100;
-    //    int index = Search(array, value);
-    //    if (index == -1)
-    //    {
-    //        Console.WriteLine("{0} not found", value);
-    //    }
-    //    else
-    //    {
-    //        Console.WriteLine("{0} found at index {1}", value, index);
-    //    }
+    //    //int[] array = new int[1024];
+
+    //    //for (var i = 0; i < 1024; i++)
+    //    //{
+    //    //    array[i] = i;
+    //    //}
+    //    //int[] array = { -1, 0, 3, 5, 9, 12 };
+    //    //int value = 9;
+    //    //int index = Search(array, value);
+    //    //if (index == -1)
+    //    //{
+    //    //    Console.WriteLine("{0} not found", value);
+    //    //}
+    //    //else
+    //    //{
+    //    //    Console.WriteLine("{0} found at index {1}", value, index);
+    //    //}
     //}
 }
